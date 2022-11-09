@@ -6,60 +6,54 @@
     <body>
         <form action="/form-handling-url" method="post">
             <fieldset>
-            <legend>Add user</legend>
-        
-            <div>
-                <label for="firstName">First name</label>
+            <legend class="legend-style">Add user</legend>
+            <div class="center-label-large">
+                <label for="firstName">First name</label><br>
                 <input type="text" id="firstName" name="first_name">
             </div>
-        
-            <div>
-                <label for="lastName">Last name</label>
+            <div class="center-label-large">
+                <label for="lastName">Last name</label><br>
                 <input type="text" id="lastName" name="last_name">
             </div>
-        
-            <div>
-                <label for="email">Email</label>
+            <div class="center-label-large">
+                <label for="email">Email</label><br>
                 <input type="email" id="email" name="email_address">
             </div>
-        
-            <div>
+            <div class="center-label-large">
                 <label for="role">Status</label>
+                <label for="date">Date</label><br>
                 <select id="role" name="user_role_name">
-                <option value="student">Student</option>
-                <option value="instructor">Instructor</option>
-                <option value="guest">Guest</option>
+                    <optgroup>
+                        <option value="student">Student</option>
+                        <option value="instructor">Instructor</option>
+                        <option value="guest">Guest</option>
+                    </optgroup>
                 </select>
-            </div>
-            
-            <div>
-                <p>Choose your favorite Web language:</p>
-                <input type="radio" id="html" name="fav_language" value="HTML">
-                <label for="html">HTML</label><br>
-                <input type="radio" id="css" name="fav_language" value="CSS">
-                <label for="css">CSS</label><br>
-                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                <label for="javascript">JavaScript</label>
-            </div>
-
-            <div>
-                <label for="comments">Comments</label>
-                <textarea id="comments" name="comments"></textarea>
-            </div>
-
-            <div>
-                <label for="date">Date</label>
                 <input type="date" id="date" name="date">
             </div>
-
             <div>
+                <p class="center-label-medium">Choose your favorite Web language:</p>
+                <div class="radio-selection">
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">HTML</label>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">CSS</label>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+            </div>
+            <div class="center-label-large">
+                <label for="comments">Comments</label><br>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+            <div class="center-label-medium wrap-text dumb">
                 <input type="checkbox" id="signup" name="signup" value="Signup">
-                <label for="signup">Sign up for news letter</label><br>
+                <label class="wrap-text-value" for="signup">Sign up for news letter</label>
                 <input type="checkbox" id="terms" name="terms" value="Terms">
-                <label for="terms"> Agree to terms and conditions</label>
+                <label class="wrap-text-value" for="terms"> Agree to terms and conditions</label>
             </div>
         
-            <div>
+            <div class="button-land">
                 <button type="submit">Submit</button>
             </div>
         

@@ -1,0 +1,109 @@
+
+legend {
+    font-size: 25pt;
+}
+
+button {
+    width: fit-content;
+    height: fit-content;
+    padding-left: 25px;
+    font-size: larger;
+    padding-right: 25px;
+}
+.center-label-large{
+    font-size: 20pt;
+    text-align: center;
+}
+.center-label-medium{
+    font-size: 20pt;
+    text-align: center;
+}
+.radio-selection{
+    font-size: 20pt;
+    align-items: center;
+    position: relative;
+    display: inline-block
+}
+
+input[type=radio] {
+    height: 25px;
+    width: 25px;
+}
+
+input[type=date] {
+    font-size: 15pt;
+    height: fit-content;
+    width: fit-content;
+}
+
+input[type=text] {
+    font-size: 15pt;
+    height: fit-content;
+    width: fit-content;
+}
+
+input[type=email] {
+    font-size: 15pt;
+    height: fit-content;
+    width: fit-content;
+}
+
+select{
+    font-size: 15pt;
+}
+
+optgroup {
+    font-size: 20pt;
+    height: fit-content;
+    width: fit-content;
+}
+.wrap-text {
+    display: inline-table;
+    width: 300px;
+    align-items: center;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.wrap-text-value {
+    width: fit-content;
+    display: table-cell;
+}
+
+.legend-style {
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+}
+
+fieldset{
+    width: 450px;
+    height: fit-content;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.button-land {
+    padding-left: 30%;
+    padding-right: 30%;
+    align-items: center;
+}
+
+
+.dumb {
+    padding-left: 15%;
+    padding-right: 15%;
+    overflow: hidden;
+    height: 150px;
+}
+
+form {
+    position: relative;
+    align-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+}
